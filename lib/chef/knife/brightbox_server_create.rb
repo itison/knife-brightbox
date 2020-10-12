@@ -25,7 +25,7 @@ class Chef
       include Knife::BrightboxBase
 
       deps do
-        require 'fog'
+        require 'fog/brightbox'
         require 'readline'
         require 'chef/json_compat'
         require 'chef/knife/bootstrap'
